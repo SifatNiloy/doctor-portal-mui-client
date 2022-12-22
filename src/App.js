@@ -1,17 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Router } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      
+      <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
-      </Router>
+      </Routes>
     </div>
   );
 }
