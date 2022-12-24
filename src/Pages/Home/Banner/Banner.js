@@ -6,7 +6,6 @@ import { Typography, Button, Container } from '@mui/material';
 import { Box } from '@mui/system';
 const bannerBg = {
     background: `url(${bg})`,
-    border:'1px solid red',
     padding:'40px'
 }
 const verticalCenter = {
@@ -25,7 +24,7 @@ const Banner = () => {
                             Your new style <br />
                             Starts here
                         </Typography>
-                        <Typography sx={{ fontsize: 14, color: 'gray' }}>
+                        <Typography sx={{my:5, fontsize: 14, color: 'gray' }}>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur inventore ea voluptate impedit necessitatibus tempore recusandae quia esse nobis cupiditate.
                         </Typography>
                         <Button variant='contained'>Get Appointment</Button>
